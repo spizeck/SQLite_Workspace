@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Sqlite (Xerial) - tutorial.db" uuid="83ddf6e0-6eb8-495b-92fd-eb17579c59d1">
+    <database-info product="SQLite" version="3.8.9" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="stuffToPlot" schema="" catalog="" type="TABLE">
+      <column name="unix" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+      <column name="datestamp" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="keyword" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="value" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+    </table>
+  </data-source>
+  <data-source name="Sqlite (Xerial) - phoa_2015.db" uuid="6dd5bc73-4230-49a8-a4c1-297a55acde45">
+    <database-info product="SQLite" version="3.8.9" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="phoa" schema="" catalog="" type="TABLE">
+      <column name="Month" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="Descript" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="Amount" sqlType="REAL" precision="0" scale="-1" nullable="true" jdbcType="6"/>
+    </table>
+  </data-source>
+</component>
